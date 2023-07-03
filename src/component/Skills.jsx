@@ -12,7 +12,8 @@ const Skills = () => {
     },[])
 
     return (
-        <div className="my-container py-12">
+       <div className="bg-[#2c2b2b]" id="skills">
+         <div className="my-container py-12">
             <h1 className="text-center pb-10 text-4xl font-bold text-[#0ef]">Skills</h1>
 
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 text-center">
@@ -24,6 +25,7 @@ const Skills = () => {
                     }
                 </div>
         </div>
+       </div>
     );
 };
 

@@ -18,7 +18,7 @@ const Skill = ({skill}) => {
         
         />
       </div>
-      <h2 className="mt-2 capitalize text-lg font-semibold">{skill.skill}</h2>
+      <h2 className="mt-2 capitalize text-lg font-semibold text-white">{skill.skill}</h2>
        </div>
     );
 };

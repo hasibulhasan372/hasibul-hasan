@@ -6,10 +6,13 @@
     @apply max-w-[1090px] mx-auto;
 }
 .menu-bar{
-    @apply flex gap-x-10 text-lg font-semibold;
+    @apply flex flex-col md:flex-row gap-x-10 text-lg font-semibold text-white items-center;
 }
 .project-box{
-    @apply w-full relative px-2 overflow-hidden;
+    @apply w-full relative px-2 overflow-hidden rounded-xl;
+}
+.project-img{
+    @apply w-full rounded-xl h-[500px];
 }
 .project-box:hover .project-img{
     @apply scale-105 transform duration-700 ease-in-out ;
@@ -24,10 +27,10 @@
     @apply bg-[#00000070] translate-y-[100%] duration-700 absolute h-full w-full top-0 left-0 rounded-xl ;
 }
 .project-box:hover .img-overly{
-    @apply translate-y-[0] duration-700;
+    @apply translate-y-[0] duration-700 ;
 }
 .project-box:hover .project-details{
-    @apply translate-y-[0] duration-700;
+    @apply translate-y-[0] duration-700 ;
 }
 .project-details{
     @apply absolute font-semibold translate-y-[100%] duration-700 rounded-xl bottom-0 left-0 w-full h-full bg-gradient-to-t from-[#000] to-[#00000070] px-3 text-white flex flex-col justify-center;
