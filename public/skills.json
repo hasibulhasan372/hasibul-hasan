@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "skill": "react",
+        "level": 80,
+        "img": "https://i.ibb.co/5j6PsJB/react.png"
+    },
+    {
+        "id": 2,
+        "skill": "Express JS",
+        "level": 70,
+        "img": "https://i.ibb.co/GMW81Lz/express.png"
+    },
+    {
+        "id": 3,
+        "skill": "HTML5",
+        "level": 85,
+        "img": "https://i.ibb.co/QY79Xtm/html.png" 
+    },
+    {
+        "id": 4,
+        "skill": "CSS",
+        "level": 80,
+        "img": "https://i.ibb.co/Lpxm2Vw/css.png" 
+    },
+    {
+        "id": 5,
+        "skill": "TailWind",
+        "level": 75,
+        "img": "https://i.ibb.co/rH6gps1/tailwind.png" 
+    },
+    {
+        "id": 6,
+        "skill": "Bootstrap",
+        "level": 70,
+        "img": "https://i.ibb.co/TP02QPc/bootstrap.png" 
+    },
+    {
+        "id": 7,
+        "skill": "JavaScript",
+        "level": 70,
+        "img": "https://i.ibb.co/KxgyyZT/js.png" 
+    },
+    {
+        "id": 8,
+        "skill": "MongoDB",
+        "level": 60,
+        "img": "https://i.ibb.co/CzqrHKM/mongodb.png" 
+    }
+
+]
+
+
+
