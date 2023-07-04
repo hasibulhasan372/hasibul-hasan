@@ -9,12 +9,12 @@ const Navbar = () => {
     return (
        <div className="py-4 bg-[#2c2b2b]">
          <div className="my-container">
-           <div className="flex justify-around md:justify-between">
+           <div className="flex justify-around items-center md:justify-between">
            <h1 className="font-bold text-2xl md:3xl text-white">Hasibul Hasan</h1>
            <div className="md:hidden" onClick={()=>setOpen(!open)}>
-            <FaBars className="text-xl"></FaBars>
+            <FaBars className="text-xl text-white"></FaBars>
            </div>
-            <div className={`absolute md:static transform duration-500 py-3 md:py-0 ${open? 'top-14 right-6 px-4 bg-slate-900 md:bg-[#2c2b2b]' : '-top-44 right-0'}`}>
+            <div className={`absolute md:static transform duration-500 py-3 md:py-0 ${open? 'top-14 right-6 px-4 bg-slate-900 md:bg-[#2c2b2b]' : '-top-52 right-0'}`}>
                     <ul className="menu-bar">
                         <li><NavLink to='#home'>Home</NavLink> </li>
                         <li><a href='#about'>About</a> </li>
