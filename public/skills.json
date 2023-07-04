@@ -47,6 +47,13 @@
         "level": 60,
         "img": "https://i.ibb.co/CzqrHKM/mongodb.png" 
     }
+    ,
+    {
+        "id": 9,
+        "skill": "Firebase Authentication",
+        "level": 70,
+        "img": "" 
+    }
 
 ]
 

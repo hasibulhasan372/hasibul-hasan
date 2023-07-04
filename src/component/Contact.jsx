@@ -1,4 +1,4 @@
-import {  FaAddressCard, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
+import {  FaAddressCard, FaEnvelope, FaFacebookF, FaGithub,  FaLinkedinIn, FaPhoneAlt } from "react-icons/fa";
 import ContactForm from "../Card/ContactForm";
 
 const Contact = () => {
@@ -23,6 +23,15 @@ const Contact = () => {
                     <div className="flex gap-2 items-center">
                         <FaAddressCard></FaAddressCard>
                         <h2 className="">Dhaka, Bangladesh</h2>
+                    </div>
+
+                    <div className="flex gap-4 items-center">
+                        <a className="  border-[#0ef] border-[2px] rounded-full p-2"
+                         href="https://www.facebook.com/hasibul.hasan.3304" target="_black"><FaFacebookF></FaFacebookF></a>
+                        <a className=" border-[2px] border-[#0ef] rounded-full p-2" 
+                        href="https://www.linkedin.com/in/md-hasibul-hasan-2b8a77111" target="_black"><FaLinkedinIn></FaLinkedinIn></a>
+                        <a className=" border-[2px] border-[#0ef] rounded-full p-2" 
+                        href="https://github.com/hasibulhasan372" target="_black"><FaGithub></FaGithub></a>
                     </div>
                 </div>
                 <div className="px-10 md:px-0">
