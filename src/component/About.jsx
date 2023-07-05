@@ -8,7 +8,7 @@ const About = () => {
                 <div className="py-20  md:flex items-center justify-around text-white">
 
                     <div className="space-y-2 md:space-y-4 text-center">
-                        <h1 className="text-lg md:text-2xl lg:text-3xl font-semibold"> My name is <span className="text-xl sm:text-2xl md:text-4xl lg:text-5xl text-[#0ef] font-bold">Md. Hasibul Hasan</span></h1>
+                        <h1 className="text-lg md:text-2xl lg:text-3xl font-semibold"> I am <span className="text-xl sm:text-2xl md:text-4xl lg:text-5xl text-[#0ef] font-bold">Md. Hasibul Hasan</span></h1>
                         {/* <h3 className="text-lg md:text-2xl lg:text-3xl font-semibold">I am a <span className="text-xl sm:text-2xl md:text-4xl lg:text-5xl text-[#3ee6f2] font-bold">MERN Stack Developer</span></h3> */}
                         <p className="text-lg md:text-2xl font-semibold">I am a MERN Stack Developer. I have done several projects on different perspective. The enthusiasm about Web Development push me to build my  career in IT section as a Web Developer.</p>
                         <div className="mt-3">
